@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 14 - Nested Table</title>
+
+    <style>
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="table-container">
+
+        <table>
+
+            <tr>
+                <th rowspan="2">Day</th>
+                <th colspan="2">Lab Batches</th>
+                <th rowspan="2">Faculty</th>
+                <th rowspan="2">Room</th>
+                <th rowspan="2">Time</th>
+            </tr>
+
+            <tr>
+                <th>Batch</th>
+                <th>System</th>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Friday</td>
+                <td>A1</td>
+                <td>PC 1-20</td>
+                <td rowspan="2">Dr. Sharma</td>
+                <td rowspan="2">Lab 2</td>
+                <td rowspan="2">2-4 PM</td>
+            </tr>
+
+            <tr>
+                <td>A2</td>
+                <td>PC 21-40</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</body>
+</html>
